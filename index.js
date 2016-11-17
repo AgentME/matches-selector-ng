@@ -1,12 +1,12 @@
 'use strict';
 
-var proto = Element.prototype;
-var vendor = proto.matches
+var proto = global.Element && global.Element.prototype;
+var vendor = proto && (proto.matches
   || proto.matchesSelector
   || proto.webkitMatchesSelector
   || proto.mozMatchesSelector
   || proto.msMatchesSelector
-  || proto.oMatchesSelector;
+  || proto.oMatchesSelector);
 
 module.exports = match;
 
