@@ -1,16 +1,20 @@
 {
-  "name": "matches-selector",
-  "version": "1.0.0",
+  "name": "matches-selector-ng",
+  "version": "0.1.0",
   "description": "Check if a DOM element matches a given selector, with decent browser support and unit tests.",
   "keywords": [
     "browserify",
     "CSS",
     "selector"
   ],
+  "bugs": {
+    "url": "https://github.com/AgentME/matches-selector-ng/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ForbesLindesay/matches-selector.git"
+    "url": "git+https://github.com/AgentME/matches-selector-ng.git"
   },
+  "homepage": "https://github.com/AgentME/matches-selector-ng#readme",
   "license": "MIT",
   "scripts": {
     "test": "run-browser test/index.js"
