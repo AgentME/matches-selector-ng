@@ -14,7 +14,7 @@ export default function match(el: HTMLElement, selector: string): boolean {
   if (parentNode && typeof parentNode.querySelectorAll === 'function') {
     const nodes = parentNode.querySelectorAll(selector);
     for (let i = 0; i < nodes.length; i++) {
-      if (nodes[i] == el) return true;
+      if (nodes[i] === el) return true;
     }
   }
   return false;
