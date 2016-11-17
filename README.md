@@ -1,6 +1,10 @@
 # matches-selector-ng
 
-Check if an element matches a given selector. For use with browserify.
+[![Circle CI](https://circleci.com/gh/AgentME/matches-selector-ng.svg?style=shield)](https://circleci.com/gh/AgentME/matches-selector-ng)
+[![npm version](https://badge.fury.io/js/matches-selector-ng.svg)](https://badge.fury.io/js/matches-selector-ng)
+
+Check if an element matches a given selector. Uses the native `matches` method
+if present. For use with a commonjs bundler such as browserify.
 
 ## Installation
 
@@ -9,7 +13,7 @@ Check if an element matches a given selector. For use with browserify.
 ## Example
 
 ```js
-var matches = require('matches-selector');
+var matches = require('matches-selector-ng');
 matches(el, 'ul li a');
 // => true or false
 ```
