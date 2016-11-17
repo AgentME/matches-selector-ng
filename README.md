@@ -14,13 +14,7 @@ matches(el, 'ul li a');
 // => true or false
 ```
 
-## Running Tests
+## Types
 
-Tests can be easilly run locally in the browser of your choice, and have passed if it ends with `# ok`.  They are also run on testling-ci when pushed to the repository:
-
-```
-npm install
-npm test
-```
-
-To re-run tests after making changes, just refresh your browser
+[Flow](https://flowtype.org/) type declarations for this module are included!
+If you are using Flow, they won't require any configuration to use.
