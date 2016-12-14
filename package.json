@@ -4,7 +4,7 @@
   "description": "Check if a DOM element matches a given selector, with decent browser support and unit tests.",
   "main": "js/index.js",
   "scripts": {
-    "prepublish": "babel -s inline -d js/ src/ --ignore '*.test.*' && flow-copy-source -v src js --ignore '*.test.*'",
+    "prepare": "babel -s inline -d js/ src/ --ignore '*.test.*' && flow-copy-source -v src js --ignore '*.test.*'",
     "test": "npm run lint && npm run flow_check && jest",
     "flow_check": "flow check",
     "lint": "eslint .",
@@ -34,7 +34,7 @@
     "babel-register": "^6.18.0",
     "eslint": "^3.10.2",
     "eslint-plugin-flowtype": "^2.25.0",
-    "flow-bin": "^0.35.0",
+    "flow-bin": "^0.37.0",
     "flow-copy-source": "^1.1.0",
     "jest": "^17.0.2"
   }
