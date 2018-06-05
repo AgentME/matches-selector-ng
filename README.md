@@ -1,7 +1,6 @@
 # matches-selector-ng
 
-[![Circle CI](https://circleci.com/gh/AgentME/matches-selector-ng.svg?style=shield)](https://circleci.com/gh/AgentME/matches-selector-ng)
-[![npm version](https://badge.fury.io/js/matches-selector-ng.svg)](https://badge.fury.io/js/matches-selector-ng)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/matches-selector-ng/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/matches-selector-ng.svg?style=flat)](https://www.npmjs.com/package/matches-selector-ng) [![CircleCI Status](https://circleci.com/gh/AgentME/matches-selector-ng.svg?style=shield)](https://circleci.com/gh/AgentME/matches-selector-ng)
 
 Check if an element matches a given selector. Uses the native
 [`matches` method](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
