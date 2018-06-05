@@ -11,8 +11,8 @@ const vendor = proto && (proto.matches
 export default function match(el: HTMLElement, selector: string): boolean {
   if (vendor) return vendor.call(el, selector);
   const {parentNode} = el;
-  if (parentNode && typeof parentNode.querySelectorAll === 'function') {
-    const nodes = parentNode.querySelectorAll(selector);
+  if (parentNode && typeof (parentNode:any).querySelectorAll === 'function') {
+    const nodes = (parentNode:any).querySelectorAll(selector);
     for (let i = 0; i < nodes.length; i++) {
       if (nodes[i] === el) return true;
     }

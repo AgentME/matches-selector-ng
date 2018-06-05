@@ -18,6 +18,6 @@ test('matchesSelector(el, selector)', () => {
   expect(matches(li, 'li')).toBe(true);
   expect(matches(li, 'div > li')).toBe(false);
 
-  expect(matches(ul, 'ul', 'ul = "ul"')).toBe(true);
+  expect(matches(ul, 'ul')).toBe(true);
   expect(matches(ul, 'body > ul')).toBe(false);
 });
