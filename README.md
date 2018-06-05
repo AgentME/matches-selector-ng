@@ -9,7 +9,7 @@ if present. For use with a commonjs bundler such as browserify.
 
 ## Installation
 
-    $ npm install --save matches-selector-ng
+    $ yarn add matches-selector-ng
 
 ## Example
 
