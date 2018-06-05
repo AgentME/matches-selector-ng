@@ -5,6 +5,6 @@ so breaking changes will only be made in major version updates.
 
 * Fix Flow v0.73.0 compatibility.
 
-## 1.0.0 (2016-11-17)
+## 1.0.0 (2016-11-16)
 
 * First stable release.
