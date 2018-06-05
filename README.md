@@ -4,7 +4,7 @@
 
 Check if an element matches a given selector. Uses the native
 [`matches` method](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
-if present. For use with a commonjs bundler such as browserify.
+if present. For use with a commonjs bundler such as Browserify or Webpack.
 
 ## Installation
 
