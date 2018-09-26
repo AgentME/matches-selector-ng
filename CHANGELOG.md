@@ -7,4 +7,6 @@ so breaking changes will only be made in major version updates.
 
 ## 1.0.0 (2016-11-16)
 
-* First stable release.
+Initial forked release.
+
+* Added Flow type definitions.
