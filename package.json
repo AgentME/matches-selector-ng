@@ -16,13 +16,13 @@
     "selector"
   ],
   "bugs": {
-    "url": "https://github.com/AgentME/matches-selector-ng/issues"
+    "url": "https://github.com/Macil/matches-selector-ng/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AgentME/matches-selector-ng.git"
+    "url": "git+https://github.com/Macil/matches-selector-ng.git"
   },
-  "homepage": "https://github.com/AgentME/matches-selector-ng#readme",
+  "homepage": "https://github.com/Macil/matches-selector-ng#readme",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.18.0",

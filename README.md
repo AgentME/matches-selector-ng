@@ -1,6 +1,6 @@
 # matches-selector-ng
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/matches-selector-ng/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/matches-selector-ng.svg?style=flat)](https://www.npmjs.com/package/matches-selector-ng) [![CircleCI Status](https://circleci.com/gh/AgentME/matches-selector-ng.svg?style=shield)](https://circleci.com/gh/AgentME/matches-selector-ng) [![Greenkeeper badge](https://badges.greenkeeper.io/AgentME/matches-selector-ng.svg)](https://greenkeeper.io/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Macil/matches-selector-ng/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/matches-selector-ng.svg?style=flat)](https://www.npmjs.com/package/matches-selector-ng) [![CircleCI Status](https://circleci.com/gh/Macil/matches-selector-ng.svg?style=shield)](https://circleci.com/gh/Macil/matches-selector-ng) [![Greenkeeper badge](https://badges.greenkeeper.io/Macil/matches-selector-ng.svg)](https://greenkeeper.io/)
 
 Check if an element matches a given selector. Uses the native
 [`matches` method](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
