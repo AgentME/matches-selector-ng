@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Check if a DOM element matches a given selector, with decent browser support and unit tests.",
   "main": "js/index.js",
+  "sideEffects": false,
   "scripts": {
     "prepare": "rimraf js/ && babel -s inline -d js/ src/ --ignore '*.test.*' && flow-copy-source -v src js --ignore '*.test.*'",
     "test": "yarn run lint && yarn run flow_check && jest",
